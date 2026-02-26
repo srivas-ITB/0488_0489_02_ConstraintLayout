@@ -1,4 +1,4 @@
-package com.example.primeraapp
+package com.example.app01_helloandroid
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -24,14 +24,14 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.modifier.modifierLocalConsumer
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.example.primeraapp.ui.theme.PrimeraAppTheme
+import com.example.app01_helloandroid.ui.theme.App01_HelloAndroid_Theme
 
-class MainActivity : ComponentActivity() {
+class MainActivity_2 : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        //enableEdgeToEdge()
+        enableEdgeToEdge()
         setContent {
-            PrimeraAppTheme {
+            App01_HelloAndroid_Theme() {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Column(verticalArrangement = Arrangement.SpaceEvenly) {
                         Greeting2(
@@ -92,7 +92,7 @@ fun MyColumn(modifier: Modifier = Modifier) {
 @Preview(showBackground = true)
 @Composable
 fun GreetingPreview2() {
-    PrimeraAppTheme {
-        Greeting("Android")
+    App01_HelloAndroid_Theme() {
+        Greeting2("Android")
     }
 }
