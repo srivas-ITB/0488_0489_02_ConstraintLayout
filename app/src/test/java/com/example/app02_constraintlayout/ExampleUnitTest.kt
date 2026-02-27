@@ -1,4 +1,4 @@
-package com.example.app01_helloandroid
+package com.example.app02_constraintlayout
 
 import org.junit.Test
 

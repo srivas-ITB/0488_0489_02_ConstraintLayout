@@ -1,4 +1,4 @@
-package com.example.app01_helloandroid.ui.theme
+package com.example.app02_constraintlayout.ui.theme
 
 import android.app.Activity
 import android.os.Build
@@ -34,7 +34,7 @@ private val LightColorScheme = lightColorScheme(
 )
 
 @Composable
-fun App01_HelloAndroid_Theme(
+fun App02_ConstraintLayout_Theme(
     darkTheme: Boolean = isSystemInDarkTheme(),
     // Dynamic color is available on Android 12+
     dynamicColor: Boolean = true,
