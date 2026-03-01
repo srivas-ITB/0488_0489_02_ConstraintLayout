@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.app01_helloandroid"
+    namespace = "com.example.app02_constraintlayout"
     compileSdk {
         version = release(36) {
             minorApiLevel = 1
@@ -55,4 +55,6 @@ dependencies {
     androidTestImplementation(libs.androidx.compose.ui.test.junit4)
     debugImplementation(libs.androidx.compose.ui.tooling)
     debugImplementation(libs.androidx.compose.ui.test.manifest)
+    implementation("androidx.constraintlayout:constraintlayout-compose:1.1.1")
+
 }

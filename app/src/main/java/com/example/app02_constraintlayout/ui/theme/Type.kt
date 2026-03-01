@@ -1,4 +1,4 @@
-package com.example.app01_helloandroid.ui.theme
+package com.example.app02_constraintlayout.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle

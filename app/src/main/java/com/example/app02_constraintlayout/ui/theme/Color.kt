@@ -1,4 +1,4 @@
-package com.example.app01_helloandroid.ui.theme
+package com.example.app02_constraintlayoutui.theme
 
 import androidx.compose.ui.graphics.Color
 
